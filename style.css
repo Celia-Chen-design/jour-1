@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    line-height: 130%;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+H1 {
+    grid-row: inherit;
+    grid-column: 1/4;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+hr{
+    background: rgb(0, 0, 0);
+    height: 1,5px;
+
+    grid-column: 1/4;
+}
+

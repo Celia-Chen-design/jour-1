@@ -1,0 +1,25 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    line-height: 130%;
+    color: rgb(56, 56, 56);
+}
+h1{color: black;}
+h2 {
+    grid-row: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+hr{
+    color: rgb(56, 56, 56);
+    height: 50px;
+  
+}
