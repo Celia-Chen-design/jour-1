@@ -3,7 +3,8 @@ body {
     line-height: 130%;
     color: rgb(56, 56, 56);
 }
-h1{color: black;}
+h1{color: black;
+    text-decoration: none;}
 h2 {
     grid-row: inherit;
 }
